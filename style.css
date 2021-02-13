@@ -1,0 +1,87 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+a :link{
+    color: purple;
+}
+
+a :visited{
+    color: blue;
+}
+
+.bodyimg{
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 70px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav div{
+    height: 4px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 25px;
+}
+
+.nav{
+    width: 30px;
+    display: block;
+    margin: lem 0 0 lem;
+}
+
+.one{
+    width: 30px;
+}
+
+.two{
+    width: 20px;
+}
+
+.three{
+    width: 25px;
+}
+
+h3{
+    text-align: center;
+}
+
+.origami{
+    border: solid;
+    border-color: black;
+    position: relative;
+}
+
+.origami p{
+    position: absolute;
+}
+
+.origami :hover{
+    transform: scale(1.2);
+}
